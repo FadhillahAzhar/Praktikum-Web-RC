@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p class="theme">select theme : 
+        <select onchange="warna(value)">
+            <option value="white">white</option>
+            <option value="black">black</option>
+            <option value="blue">blue</option>
+            <option value="red">red</option>
+        </select>
+    </p>
+
+    <h1>This is my website</h1>
+    
+    <p>select the weather type today : 
+        <select onchange="weather(value)">
+            <option value="Sunny">Sunny</option>
+            <option value="Rainy">Rainy</option>
+            <option value="Snowy">Cloudy</option>
+            <option value="Stormy">Stormy</option>
+            <option value="Hurricane">Hurricane</option>
+        </select>
+    </p>
+
+    <p id="weather">It is nice and sunny outside today. Wear shorts! Go to the beach, or the park, and get an ice cream.</p>
+
+    <p>
+        Input Number : 
+        <input id="angka" type="number"><button onclick="factorial()">Get Factorial</button>
+    </p> 
+
+    <p id="factorial"></p>
+
+    <script src="script.js"></script>
+</body>
+</html>
